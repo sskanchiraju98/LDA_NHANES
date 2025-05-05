@@ -61,7 +61,7 @@ def main():
     sys.path.append(BASE_DIR)
     
     # Import config after setting up path
-    from config import PROCESSED_DATA_DIR, CORPUS_DIR, MODEL_DIR
+    from config import PROCESSED_DATA_DIR, CORPUS_DIR, MODEL_DIR, TOPIC_NAMES_DIR, VISUALIZATIONS_DIR
     
     # Determine which steps to run
     if args.steps.lower() == 'all':
@@ -77,8 +77,8 @@ def main():
         'narratives': os.path.join(CORPUS_DIR, "all_documents.pkl"),
         'concepts': os.path.join(PROCESSED_DATA_DIR, "preprocessed", "corpus_bow.pkl"),
         'lda': os.path.join(MODEL_DIR, f"lda_best_overall_score_{args.num_topics}_topics.gensim"),
-        'mapping': os.path.join(BASE_DIR, "results", "topic_names", f"topic_to_cpt_mappings_lda_best_overall_score_{args.num_topics}_topics.csv"),
-        'visualize': os.path.join(BASE_DIR, "results", "visualizations", f"topic_wordclouds_lda_best_overall_score_{args.num_topics}_topics.png")
+        'mapping': os.path.join(TOPIC_NAMES_DIR, f"topic_to_cpt_mappings_lda_best_overall_score_{args.num_topics}_topics.csv"),
+        'visualize': os.path.join(VISUALIZATIONS_DIR, f"topic_wordclouds_lda_best_overall_score_{args.num_topics}_topics.png")
     }
     
     # Start timing

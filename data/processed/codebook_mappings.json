@@ -1,0 +1,57 @@
+{
+  "RIAGENDR": {
+    "1": "male",
+    "2": "female"
+  },
+  "RIDRETH3": {
+    "1": "Mexican American",
+    "2": "Other Hispanic",
+    "3": "Non-Hispanic White",
+    "4": "Non-Hispanic Black",
+    "6": "Non-Hispanic Asian",
+    "7": "Other Race/Multi-Racial"
+  },
+  "HUQ010": {
+    "1": "excellent",
+    "2": "very good",
+    "3": "good",
+    "4": "fair",
+    "5": "poor"
+  },
+  "YES_NO": {
+    "1": "yes",
+    "2": "no"
+  },
+  "FREQUENCY": {
+    "0": "never",
+    "1": "rarely",
+    "2": "sometimes",
+    "3": "often",
+    "4": "always"
+  },
+  "DIFFICULTY": {
+    "1": "no difficulty",
+    "2": "some difficulty",
+    "3": "much difficulty",
+    "4": "unable to do"
+  },
+  "SMOKING": {
+    "1": "current smoker",
+    "2": "former smoker",
+    "3": "never smoked"
+  },
+  "ALCOHOL": {
+    "0": "never drinks alcohol",
+    "1": "drinks alcohol less than once per month",
+    "2": "drinks alcohol 1-3 times per month",
+    "3": "drinks alcohol 1-2 times per week",
+    "4": "drinks alcohol 3-4 times per week",
+    "5": "drinks alcohol almost daily"
+  },
+  "ACTIVITY": {
+    "1": "sedentary",
+    "2": "light activity",
+    "3": "moderate activity",
+    "4": "vigorous activity"
+  }
+}

@@ -1,0 +1,1 @@
+Patient is a 15-year-old child. Patient is a male.  Patient is Non-Hispanic Black.  Patient has asthma.  Patient has hepatitis b.  Patient adheres to a special diet. Systolic blood pressure is elevated. Diastolic blood pressure is within normal range.
